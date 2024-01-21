@@ -70,3 +70,16 @@ input{
 ::placeholder{
     color: #050505;
 }
+
+.dtab{
+    position: relative;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+table, th, td {
+    border: 1px solid;
+    margin: 2%;
+    border-spacing: 2px;
+    padding: 2px;
+  }
