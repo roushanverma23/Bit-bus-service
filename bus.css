@@ -1,23 +1,8 @@
-/* body{
-    background-color:rgb(255, 255, 255);   
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-} */
 
 body{
     background-image: url(./assets/images/campus-tour-2.jpg);
     background-size: cover;
 }
-
-
-/* #home{   
-    display: flex;
-    justify-content:space-evenly;
-
-} */
 
 form h3{
     text-align: center;
@@ -72,17 +57,7 @@ label{
     font-size: 16px;
     font-weight: 500;
 }
-/* input{
-    display: block;
-    height: 50px;
-    width: 100%;
-    background-color: rgba(2, 2, 2, 0.07);
-    border-radius: 3px;
-    padding: 0 10px;
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: 300;
-} */
+
 ::placeholder{
     color: #050505;
 }

@@ -1,23 +1,9 @@
-/* body{
-    background-color:rgb(255, 255, 255);   
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-} */
-
 body{
     background-image: url(./assets/images/campus-tour-2.jpg);
     background-size: cover;
 }
 
 
-/* #home{   
-    display: flex;
-    justify-content:space-evenly;
-
-} */
 
 form h3{
     text-align: center;
