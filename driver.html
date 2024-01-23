@@ -3,62 +3,68 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./driver.css" />
-    <title>Driver</title>
+    <link rel="stylesheet" href="./style.css" />
+    <title>Bus</title>
 </head>
 <body>
     <div>
         <form action="./home.html">
-            <h3>Driver Details</h3>
+            <form action="./home.html">
+                <h3>Driver Details</h3>
+    
+                <label for="Name">Name</label>
+                <input type="text" placeholder="Enter name" id="dname" required/>
+    
+                <label for="phno">Phone no.</label>
+                <input type="tel" placeholder="Enter mobile no" id="phone" required />
+    
+                <label for="ld">Licence</label>
+                <input type="text" placeholder="Enter DL" id="dl" required />
 
-            <label for="Name">Name</label>
-            <input type="text" placeholder="Enter name" id="dname" required/>
-
-            <label for="phno">Phone no.</label>
-            <input type="tel" placeholder="Enter mobile no" id="phone" required />
-
-            <label for="ld">Licence</label>
-            <input type="text" placeholder="Enter DL" id="dl" required />
-
-
-            <label for="addr">Address</label>
-            <input type="text" placeholder="Address" id="location" required />
-
-           
-
-            <label for="age">Age</label>
-            <input type="number" placeholder="Enter Age" id="age" required />
-
-            <label for="dob">Dob</label>
-            <input type="date" id="dob" required />
-            
-            <button>ADD</button>
+                <label for="ld">Aadhar</label>
+                <input type="text" placeholder="Aadhar" id="id" required />
+    
+    
+                <label for="addr">Address</label>
+                <input type="text" placeholder="Address" id="location" required />
+    
+               
+    
+                <label for="age">Age</label>
+                <input type="number" placeholder="Enter Age" id="age" required />
+    
+        
+                
+                <button>ADD</button>
+    
+            </form>
 
         </form>
-    </div>
 
-    <div class="dtab">
-        <table>
-            <tr>
-                <th>Bus Time</th>
-                <th>Registration No.</th>
-                <th>Bus Type</th>
-                <th>Driver</th>
-                <th>From</th>
-                <th>To</th>
-                <th>Conductor</th>
-            </tr>
-
-            <tr>
-                <td>11:20</td>
-                <td>1123</td>
-                <td>staff</td>
-                <td>himanshu</td>
-                <td>mesra</td>
-                <td>lalpur</td>
-                <td>shivanshu</td>
-            </tr>
-        </table>
+        <div class="dtab">
+            <table>
+                <tr>
+                    <th>Bus NO.</th>
+                </tr>
+    
+                <tr>
+                    <td>1234</td>
+                    <th><button>Update</button></th>
+                    <th><button>Delete</button></th>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <th><button>Update</button></th>
+                    <th><button>Delete</button></th>
+                </tr>
+                <tr>
+                    <td>1234</td>
+                    <th><button>Update</button></th>
+                    <th><button>Delete</button></th>
+                </tr>
+            </table>
+        </div>
+    
     </div>
 
 </body>

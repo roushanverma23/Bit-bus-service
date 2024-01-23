@@ -10,12 +10,40 @@
     <div>
         <form action="./home.html">
             <h3>Bus Schedule</h3>
+
+            <label for="btime">Start time</label>
+            <input type="time" id="appt" name="appt" min="06:00" max="20:00" required />
+
+            <label for="btime">End time</label>
+            <input type="time" id="appt" name="appt" min="06:00" max="20:00" required />
+
+
+            <label for="day">Monday</label>
+            <input type="checkbox" id="mon" />
+
+            <label for="day">Tues</label>
+            <input type="checkbox" id="tues" />
+
+            <label for="day">Wedneday</label>
+            <input type="checkbox" id="wed" />
+
+            <label for="day">Thursday</label>
+            <input type="checkbox" id="thu" />
+
+            <label for="day">Friday</label>
+            <input type="checkbox" id="fri" />
+
+            <label for="day">Sat</label>
+            <input type="checkbox" id="sat" />
+
+
+
             <label for="Reg_no">Purpose</label>
             <select name="Reg_no" required>
                 <option value="">Please choose</option>
-                <option value="1213">1213</option>
-                <option value="1314">1314</option>
-                <option value="1415">1415</option>
+                <option value="stu">Student</option>
+                <option value="staff">Staff</option>
+                <option value="school">School</option>
 
             </select>
 
@@ -33,37 +61,53 @@
                 <option value="amresh">Amresh</option>
             </select>
 
-            <!-- <label for="btype">Bus Type</label>
-            <select name="Reg_no">
+            <label for="from">From</label>
+            <select name="from" required>
                 <option value="">Please choose</option>
-                <option value="1213">Staff</option>
-                <option value="1314">Student</option>
-            </select> -->
+                <option value="mesra">Mesra</option>
+                <option value="stclg">St Xavier College</option>
+                <option values="dornada">Doranda</option>
+                <option value="Rims">Rims</option>
+                <option value="Rims">Lalpur</option>
+            </select>
+
+            <label for="bdriver">To</label>
+            <select name="from" required>
+                <option value="">Please choose</option>
+                <option value="mesra">Mesra</option>
+                <option value="stclg">St Xavier College</option>
+                <option values="dornada">Doranda</option>
+                <option value="Rims">Rims</option>
+                <option value="Rims">Lalpur</option>
+            </select>
             
-            <button>Update</button>
+            <button>ADD</button>
 
         </form>
 
         <div class="dtab">
             <table>
                 <tr>
-                    <th>Bus Time</th>
-                    <th>Registration No.</th>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Purpose</th>
                     <th>Bus Type</th>
                     <th>Driver</th>
                     <th>From</th>
                     <th>To</th>
-                    <th>Conductor</th>
                 </tr>
     
                 <tr>
                     <td>11:20</td>
-                    <td>1123</td>
+                    <td>12:30</td>
                     <td>staff</td>
                     <td>himanshu</td>
                     <td>mesra</td>
                     <td>lalpur</td>
-                    <td>shivanshu</td>
+                    <td>Mesra</td>
+
+                    <th><button>Update</button></th>
+                    <th><button>Delete</button></th>
                 </tr>
             </table>
         </div>
