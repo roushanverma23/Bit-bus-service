@@ -3,28 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./bus.css" />
     <title>Bus</title>
 </head>
 <body>
-    <div>
-        <form action="./home.html">
-            <h3>ADD Bus </h3>
+    <div class="container">
+        <div class="form">
 
+            <div class="fhead">
+                <h2>Add Bus</h2>
+            </div>
 
+            <div class="fbody">
+                <form action="./home.html">
+                   <label for="busNo">Bus No.</label>
+                   <input type="text" id="busNo" required><br/>                    
+                </form>
 
+            </div>
 
-           <label for="busNo">Bus No.</label>
-           <input type="text" id="busNo" required>
+            <div class="ffoot">
+                <button>ADD</button>
+            </div>
+
             
-            <button>ADD</button>
 
-        </form>
+        </div>
+       
 
         <div class="dtab">
             <table>
                 <tr>
                     <th>Bus NO.</th>
+                    <th colspan="2">Options</th>
                 </tr>
     
                 <tr>

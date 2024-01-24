@@ -32,7 +32,7 @@ form *{
     border: none;
 }
 
-button{
+form button{
     margin-top: 50px;
     width: 100%;
     background-color: #ffffff;
