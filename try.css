@@ -1,0 +1,253 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: url(./assets/image/main.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.contain{
+    position: relative;
+    top: 8%;
+    height: 80%;
+    width: 65%;
+    background-color: rgba(0, 0, 0,0.6);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7%;
+}
+
+.nav{
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0,0.9);
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* gap:800px; */
+    color: white;
+    padding: 10px,0,10px,0;
+}
+
+.navmenu{
+    /* background-color: red; */
+    display: flex;
+    height: 80%;
+    width: 15%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.navmenu li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    /* background-color: gray; */
+    height: 100%;
+    width: 40%;
+}
+
+.navmenu li a{
+    text-decoration: none;
+    color: white;
+}
+
+.navmenu li a:active{
+    background-color: rgba(255, 12, 12, 0.6);
+    border-radius: 20px;
+
+}
+
+.navmenu li:hover{
+    background-color: rgba(255, 12, 12, 0.6);
+    border-radius: 20px;
+}
+
+.navimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+    height: 100%;
+    width: 90px;
+
+}
+.navimg img{
+    height: 70px;
+}
+
+
+.contain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* contain css */
+
+.loginBox {
+
+    height: 320px;
+    width: 300px;
+   
+         backdrop-filter: blur(10px); /* Apply backdrop blur to create a frosted glass effect */
+         border-radius: 10px; /* Optional: Add some border radius for a softer look */
+         padding: 20px; /* Adjust padding as needed */
+         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Optional: Add box shadow for depth */
+       
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    position: relative;
+    border: 2px solid white;
+    
+   
+    
+    
+}
+.divUp {
+    height: 160px;
+    width: 88%;
+    /* background-color: rgba(147, 43, 43, 1);  */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.userName  {
+    height: 40px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50px;
+    overflow: hidden;
+    color: white;
+}
+#email::placeholder{
+    color: white;
+}
+.error {
+    width: 100%;
+    
+    /* background-color: aquamarine; */
+   
+    color: brown;
+}
+.userName input {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+
+
+.password  {
+    height: 40px;
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 50px;
+    overflow: hidden;
+}
+#password::placeholder{
+    color: white;
+}
+.password input {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    color: white;
+}
+
+.divDown {
+    height: 105px;
+    width: 87%;
+    background-color: rgba(255, 255, 255, 0); 
+    /* background-color: violet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.content3 {
+    height: 20px;
+    width: 100%;
+    /* background-color: rgba(255, 46, 46, 1);  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+}
+.content3 a {
+    color: white;
+    font-weight: 600;
+}
+.loginB {
+    height: 40px;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: 0.5s ease-in-out ;
+    outline: none;
+    border: none;
+}
+.loginB:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+
+.tnc a{
+    color: white;
+    position: relative;    
+    top: 0;
+    
+}
+
+
+/* media responsive */

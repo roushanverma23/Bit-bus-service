@@ -1,118 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./bus.css" />
-    <title>Bus</title>
+    <!-- <link rel="stylesheet" href="./response.css"> -->
+    <link rel="stylesheet" href="./schedule.css">
+    <link rel="icon" href="./assets/logo/BIT_logo.png">
+    <title>Schedule</title>
 </head>
+
 <body>
-    <div>
-        <form action="./home.html">
-            <h3>Bus Schedule</h3>
+    <div class="container">
 
-            <label for="btime">Start time</label>
-            <input type="time" id="appt" name="appt" min="06:00" max="20:00" required />
+        <div class="nav">
 
-            <label for="btime">End time</label>
-            <input type="time" id="appt" name="appt" min="06:00" max="20:00" required />
+            <div class="navimg">
+                <img src="./assets/logo/BIT_logo.png" alt="logo">
+            </div>
 
-
-            <label for="day">Monday</label>
-            <input type="checkbox" id="mon" />
-
-            <label for="day">Tues</label>
-            <input type="checkbox" id="tues" />
-
-            <label for="day">Wedneday</label>
-            <input type="checkbox" id="wed" />
-
-            <label for="day">Thursday</label>
-            <input type="checkbox" id="thu" />
-
-            <label for="day">Friday</label>
-            <input type="checkbox" id="fri" />
-
-            <label for="day">Sat</label>
-            <input type="checkbox" id="sat" />
-
-
-
-            <label for="Reg_no">Purpose</label>
-            <select name="Reg_no" required>
-                <option value="">Please choose</option>
-                <option value="stu">Student</option>
-                <option value="staff">Staff</option>
-                <option value="school">School</option>
-
-            </select>
-
-            <label for="btype">Bus Type</label>
-            <select name="B_type" required>
-                <option value="">Please choose</option>
-                <option value="staff">Staff</option>
-                <option value="student">Student</option>
-            </select>
-
-            <label for="bdriver">Driver</label>
-            <select name="driver" required>
-                <option value="">Please choose</option>
-                <option value="Himanshu Sahu">Himanshu Sahu</option>
-                <option value="amresh">Amresh</option>
-            </select>
-
-            <label for="from">From</label>
-            <select name="from" required>
-                <option value="">Please choose</option>
-                <option value="mesra">Mesra</option>
-                <option value="stclg">St Xavier College</option>
-                <option values="dornada">Doranda</option>
-                <option value="Rims">Rims</option>
-                <option value="Rims">Lalpur</option>
-            </select>
-
-            <label for="bdriver">To</label>
-            <select name="from" required>
-                <option value="">Please choose</option>
-                <option value="mesra">Mesra</option>
-                <option value="stclg">St Xavier College</option>
-                <option values="dornada">Doranda</option>
-                <option value="Rims">Rims</option>
-                <option value="Rims">Lalpur</option>
-            </select>
-            
-            <button>ADD</button>
-
-        </form>
-
-        <div class="dtab">
-            <table>
-                <tr>
-                    <th>Start Time</th>
-                    <th>End Time</th>
-                    <th>Purpose</th>
-                    <th>Bus Type</th>
-                    <th>Driver</th>
-                    <th>From</th>
-                    <th>To</th>
-                </tr>
-    
-                <tr>
-                    <td>11:20</td>
-                    <td>12:30</td>
-                    <td>staff</td>
-                    <td>himanshu</td>
-                    <td>mesra</td>
-                    <td>lalpur</td>
-                    <td>Mesra</td>
-
-                    <th><button>Update</button></th>
-                    <th><button>Delete</button></th>
-                </tr>
-            </table>
+            <div class="navmenu">
+                <li>Home</li>
+                <li>Hardik</li>
+                <li>Logout</li>
+            </div>
         </div>
-    
-    </div>
 
+
+        <div class="searchDiv">
+            <div class="from">
+                <img src="./assets/image/icon/icons8-bus-64.png" alt=""> From
+            </div>
+            <div class="to">
+                <img src="./assets/image/icon/icons8-location-48.png" alt="">To
+            </div>
+
+            <div class="date">
+                <form action="">
+                    <input type="date">
+                </form>
+            </div>
+
+            <div class="searchBuses">SEARCH BUSES</div>
+
+        </div>
+
+        <div class="tbl">
+
+            <h1>BIT Mesra Bus Timings (Effective from August 1, 2023)</h1>
+            <table>
+              <tr>
+                <th>From B.I.T. Mesra</th>
+                <th>Doranda</th>
+                <th>St. Xavier's College, Ranchi</th>
+                <th>Lalpur</th>
+              </tr>
+          
+              <tr>
+                <th colspan="4">MONDAY TO FRIDAY</th>
+              </tr>
+              <tr>
+                <td>05:40 AM</td>
+                <td>06:50 AM</td>
+                <td>07:00 AM (F/C)</td>
+                <td>07:05 AM</td>
+              </tr>
+              <tr>
+                <td>06:30 AM</td>
+                <td>08:00 AM (Direct to Kantatoli to BIT Mesra)</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>07:00 AM</td>
+                <td></td>
+                <td>08:10 AM (F/C)</td>
+                <td>08:15 AM</td>
+              </tr>
+              <tr>
+                <td>09:10 AM</td>
+                <td></td>
+                <td></td>
+                <td>01:00 PM</td>
+              </tr>
+              <tr>
+                <td>01:00 PM</td>
+                <td></td>
+                <td></td>
+                <td>01:05 PM</td>
+              </tr>
+              <tr>
+                <td>05:40 PM</td>
+                <td></td>
+                <td>07:45 PM</td>
+                <td>07:50 PM</td>
+              </tr>
+          
+              <tr>
+                <th colspan="4">SATURDAY</th>
+              </tr>
+              <tr>
+                <td>05:40 AM</td>
+                <td>06:50 AM</td>
+                <td>07:00 AM (F/C)</td>
+                <td>07:05 AM</td>
+              </tr>
+              <tr>
+                <td>06:30 AM</td>
+                <td>08:00 AM (Direct to Kantatoli to BIT Mesra)</td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>07:00 AM</td>
+                <td></td>
+                <td>08:10 AM (F/C)</td>
+                <td>08:15 AM</td>
+              </tr>
+              <tr>
+                <td>09:10 AM</td>
+                <td></td>
+                <td></td>
+                <td>01:00 PM</td>
+              </tr>
+              <tr>
+                <td>01:00 PM</td>
+                <td></td>
+                <td></td>
+                <td>01:05 PM</td>
+              </tr>
+              <tr>
+                <td>05:00 PM</td>
+                <th></th>
+                <td>07:30 PM</td>
+                <td>07:35 PM</td>
+              </tr>
+          
+              <tr>
+                <th colspan="4">SUNDAY and HOLIDAY</th>
+              </tr>
+              <tr>
+                <td>09:10 AM</td>
+                <td></td>
+                <td></td>
+                <td>01:00 PM</td>
+              </tr>
+              <tr>
+                <td>01:00 PM</td>
+                <td></td>
+                <td></td>
+                <td>01:05 PM</td>
+              </tr>
+              <tr>
+                <td>05:00 PM</td>
+                <td></td>
+                <td>07:30 PM</td>
+                <td>07:35 PM</td>
+              </tr>
+            </table>
+          
+            <p><b>Note:</b> F/C stands for Firayalal Chock.</p>
+        </div>
+
+
+    </div>
 </body>
+
 </html>

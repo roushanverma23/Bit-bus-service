@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bus.css" />
+    <title>Bus</title>
+</head>
+<body>
+    <div>
+        <form action="./home.html">
+            <h3>Bus Schedule</h3>
+
+            <label for="btime">Start time</label>
+            <input type="time" id="appt" name="appt" min="06:00" max="20:00" required />
+
+            <label for="btime">End time</label>
+            <input type="time" id="appt" name="appt" min="06:00" max="20:00" required />
+
+
+            <label for="day">Monday</label>
+            <input type="checkbox" id="mon" />
+
+            <label for="day">Tues</label>
+            <input type="checkbox" id="tues" />
+
+            <label for="day">Wedneday</label>
+            <input type="checkbox" id="wed" />
+
+            <label for="day">Thursday</label>
+            <input type="checkbox" id="thu" />
+
+            <label for="day">Friday</label>
+            <input type="checkbox" id="fri" />
+
+            <label for="day">Sat</label>
+            <input type="checkbox" id="sat" />
+
+
+
+            <label for="Reg_no">Purpose</label>
+            <select name="Reg_no" required>
+                <option value="">Please choose</option>
+                <option value="stu">Student</option>
+                <option value="staff">Staff</option>
+                <option value="school">School</option>
+
+            </select>
+
+            <label for="btype">Bus Type</label>
+            <select name="B_type" required>
+                <option value="">Please choose</option>
+                <option value="staff">Staff</option>
+                <option value="student">Student</option>
+            </select>
+
+            <label for="bdriver">Driver</label>
+            <select name="driver" required>
+                <option value="">Please choose</option>
+                <option value="Himanshu Sahu">Himanshu Sahu</option>
+                <option value="amresh">Amresh</option>
+            </select>
+
+            <label for="from">From</label>
+            <select name="from" required>
+                <option value="">Please choose</option>
+                <option value="mesra">Mesra</option>
+                <option value="stclg">St Xavier College</option>
+                <option values="dornada">Doranda</option>
+                <option value="Rims">Rims</option>
+                <option value="Rims">Lalpur</option>
+            </select>
+
+            <label for="bdriver">To</label>
+            <select name="from" required>
+                <option value="">Please choose</option>
+                <option value="mesra">Mesra</option>
+                <option value="stclg">St Xavier College</option>
+                <option values="dornada">Doranda</option>
+                <option value="Rims">Rims</option>
+                <option value="Rims">Lalpur</option>
+            </select>
+            
+            <button>ADD</button>
+
+        </form>
+
+        <div class="dtab">
+            <table>
+                <tr>
+                    <th>Start Time</th>
+                    <th>End Time</th>
+                    <th>Purpose</th>
+                    <th>Bus Type</th>
+                    <th>Driver</th>
+                    <th>From</th>
+                    <th>To</th>
+                </tr>
+    
+                <tr>
+                    <td>11:20</td>
+                    <td>12:30</td>
+                    <td>staff</td>
+                    <td>himanshu</td>
+                    <td>mesra</td>
+                    <td>lalpur</td>
+                    <td>Mesra</td>
+
+                    <th><button>Update</button></th>
+                    <th><button>Delete</button></th>
+                </tr>
+            </table>
+        </div>
+    
+    </div>
+
+</body>
+</html>
